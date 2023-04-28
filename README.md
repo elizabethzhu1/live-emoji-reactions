@@ -11,4 +11,6 @@ Some features:
 I used HTML, CSS, Javascript to create the website and the interactive components. 
 I used Firebase Realtime Database to store and update data in realtime (i.e. keeping track of a user's cursor position, the location of emojis). 
 
+I initially tested this with Safari, so it works best on there! It should work fine on other browsers.
+
 There are lots of ways in which these features can be built upon - this is just a start!
