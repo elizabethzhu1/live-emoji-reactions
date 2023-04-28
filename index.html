@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Live Emoji Reactions </title>
+        <script type="module" src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+        <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+        <script type="module" src="./script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> Live Emoji Reactions </h1>
+        <div class="form">
+            <form name="form" onsubmit="return false;" method="post">
+                <label for="name"> Enter your name: </label>
+                <input type="text" id="username"/>
+                <button type="submit"> Submit </button>
+            </form>
+        </div>
+        <p id="displayuser"></p>
+        <p id="cursor"> Click anywhere on the canvas to try it! </p>
+        <canvas id="canvas" width="1000" height="700"></canvas>
+        <p id="emoji"></p>
+    </body>
+</html>

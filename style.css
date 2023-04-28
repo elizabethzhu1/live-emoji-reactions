@@ -1,0 +1,32 @@
+canvas {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    background-color: #ffffff; 
+    border: 3px solid black;
+} 
+
+h1 {
+    font-size: 30px; 
+    text-align: center;
+}
+
+#username {
+    text-align: center;
+}
+
+#cursor {
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.form {
+    font-size: 20px;
+    text-align: center;
+}
+
